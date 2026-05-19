@@ -10,12 +10,12 @@
     padding: 70px;
 }
 
-.img {
-    width: 100px;
-    height: 100px;
-    
+.img img{
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
 }
 
 .img :hover {
-    transform: scale(1.25);
+    transform: scale(0.8);
 }
