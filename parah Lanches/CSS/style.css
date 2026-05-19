@@ -10,7 +10,12 @@
     padding: 70px;
 }
 
-.img img{
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
     width: 150px;
     height: 130px;
     border-radius: 10px;
