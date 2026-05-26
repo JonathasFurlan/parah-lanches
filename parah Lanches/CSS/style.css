@@ -11,7 +11,7 @@
 }
 
 .container {
-    display: flex;
+
     justify-content: center;
 }
 
@@ -22,5 +22,14 @@
 }
 
 .img :hover {
-    transform: scale(0.8);
+    transform: scale(1.15);
 }
+
+.titulo_produto {
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    
+}
+
