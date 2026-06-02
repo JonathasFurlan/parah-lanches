@@ -10,9 +10,9 @@
     padding: 70px;
 }
 
-.container {
-
+.img {
     justify-content: center;
+    display: flex;
 }
 
 .img img {
@@ -26,10 +26,44 @@
 }
 
 .titulo_produto {
-    align-items: center;
+    justify-content: center;
+    display: flex;
     font-size: 15px;
     font-weight: bold;
     color: rgb(66, 64, 64);
+    padding-top: 15px;
+    padding-bottom: 10px;
     
+}
+
+.descr_produto {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    color: rgb(66, 64, 64);
+    padding-bottom: 15px;
+}
+
+.btnSomar button {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.btnSubtrair button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.btnSomar {
+    justify-content: center;
+    display: flex;
+}
+
+.btnSubtrair {
+    justify-content: center;
+    display: flex;
 }
 
